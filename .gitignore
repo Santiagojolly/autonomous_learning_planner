@@ -1,0 +1,34 @@
+# Logs
+*.log
+logs
+logs/
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Output directories
+dist/
+build/
+out/
+
+# Env files
+.env
+.env.*
+!.env.example
+
+# Large binaries and archives
+deno.exe
+deno.zip
+supabase.tar.gz
+
+# Local database/store files
+kv_store.json
+users_store.json
+
+# OS files
+.DS_Store
+Thumbs.db
